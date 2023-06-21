@@ -4,41 +4,23 @@ Object class = "TextGrid"
 xmin = 0 
 xmax = 30.41848072562358 
 tiers? <exists> 
-size = 2 
+size = 1 
 item []: 
     item [1]:
         class = "IntervalTier" 
-        name = "house" 
+        name = "place" 
         xmin = 0 
         xmax = 30.41848072562358 
         intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 13.389488676936613 
-            text = "" 
+            xmax = 17.138547822428425 
+            text = "road" 
         intervals [2]:
-            xmin = 13.389488676936613 
-            xmax = 29.89062928209423 
+            xmin = 17.138547822428425 
+            xmax = 30 
             text = "house" 
         intervals [3]:
-            xmin = 29.89062928209423 
+            xmin = 30 
             xmax = 30.41848072562358 
             text = "" 
-    item [2]:
-        class = "IntervalTier" 
-        name = "road" 
-        xmin = 0 
-        xmax = 30.41848072562358 
-        intervals: size = 3 
-        intervals [1]:
-            xmin = 0 
-            xmax = 13.389488676936613 
-            text = "road" 
-        intervals [2]:
-            xmin = 13.389488676936613 
-            xmax = 29.89062928209423 
-            text = "" 
-        intervals [3]:
-            xmin = 29.89062928209423 
-            xmax = 30.41848072562358 
-            text = "road" 
